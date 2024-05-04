@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    min-width: 320px;
+header{
+    background-image: linear-gradient(to bottom, rgb(1, 214, 1), rgba(0, 0, 0, 0.829));
+    margin-bottom: 0px;
+    text-align: left;
+    margin: auto;
+}
+
+header > p{
+    text-align: center;
+}
+
+header > span:hover{
+    background-color: lime;
+    color: green;
+}
+
+header > span{
+    font-family: 'idroid';
+}
+
+main{
+    background-color: white;
+     width: 1500px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+main > h1{
+    color: lime;
+    margin: 10px;
+    font-family: "Jersey 10", sans-serif;
+}
+
+main > h2{
+    color: lime;
+    margin: 10px;
+    font-family: "Jersey 10", sans-serif;
+}
+
+main > p{
+    margin: 10px;
+}
+
+strong{
+    background-image: linear-gradient(to right, lime, rgba(255, 255, 255, 0.589));
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+destaque{
+    background-color: rgb(2, 172, 2);
+}
+
+#video{
+    background-color: green;
+    width: 1500px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+
+#extra{
+    background-color: lime;
+    text-align: left;
+    
+}
+
+.esquerda{
+    
+    text-align: left;
+}
+
+#final{
+    box-shadow: 2px 2px 3px  rgba(0, 0, 0, 0.692);
+    border-radius: 5px;
+   
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+    margin-top: 30px;
+    padding: 10px;
+    
+    
+}
